@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/abreham1222/Testing-practice/issues"
   },
-  "homepage": "https://github.com/abreham1222/Testing-practice#readme"
+  "homepage": "https://github.com/abreham1222/Testing-practice#readme",
+  "devDependencies": {
+    "jest": "^29.3.0"
+  }
 }
