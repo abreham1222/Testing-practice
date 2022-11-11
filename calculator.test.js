@@ -8,3 +8,14 @@ describe('new calculator add method', ()=>{
     //Assert
     expect(result).toBe(3);
   });
+
+   test('adds 1.5 + 2.5  to equal 4', ()=>{
+    //Arrange
+    const calculate= new calculator(1.5,2.5);
+
+    //Act
+    const result = calculate.add();
+
+    //Assert
+    expect(result).toBeCloseTo(4);
+  });
