@@ -19,3 +19,16 @@ describe('new calculator add method', ()=>{
     //Assert
     expect(result).toBeCloseTo(4);
   });
+   test('adds -1 + 2  to equal 1', ()=>{
+    //Arrange
+    const calculate= new calculator(-1,2);
+
+    //Act
+    const result = calculate.add();
+
+    //Assert
+    expect(result).toBe(1);
+  });
+  
+});
+
